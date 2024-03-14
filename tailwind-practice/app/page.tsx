@@ -31,6 +31,21 @@ export default function Home() {
       <p className="text-5xl break-words">
         Thisisalongsentencewithlotofwordstoshowthattruncatewill
       </p>
+      {/* spacing */}
+      <p className="font-bold bg-red-500 pt-5">hello</p>
+      <p className="font-bold bg-green-500 pb-5">hello</p>
+      <p className="font-bold bg-yellow-500 py-5">hello</p>
+      <p className="font-bold bg-purple-500 p-5">hello</p>
+      <div className="p-4 bg-red-500">box with padding</div>
+      <div className="mb-4 bg-red-500">box with margin</div>
+      <div className="m-4 bg-red-500">box with margin</div>
+      <div className="-mt-2 bg-red-500">box with margin</div>
+      <div className="w-16 h-16 bg-green-500">box with margin</div>
+      <div className="w-1/2 h-16 bg-green-500">box with margin</div>
+      <div className="w-full h-16 bg-green-500">box with margin</div>
+      <div className="min-w-max h-16 bg-purple-500">box</div>
+      <div className="min-w-max h-16 bg-purple-500">box</div>
+      <div className="min-h-screen h-16 bg-yellow-500">box</div>
     </>
   );
 }
