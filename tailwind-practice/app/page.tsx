@@ -40,6 +40,7 @@ export default function Home() {
       <div className="mb-4 bg-red-500">box with margin</div>
       <div className="m-4 bg-red-500">box with margin</div>
       <div className="-mt-2 bg-red-500">box with margin</div>
+      <div className="-ml-2 bg-yellow-500">box with margin</div>
       <div className="w-16 h-16 bg-green-500">box with margin</div>
       <div className="w-1/2 h-16 bg-green-500">box with margin</div>
       <div className="w-full h-16 bg-green-500">box with margin</div>
@@ -147,6 +148,124 @@ export default function Home() {
         <div className="bg-purple-500 rounded-lg p-6">Fourth Columns</div>
         <div className="bg-purple-500 rounded-lg p-6">Fifth Columns</div>
         <div className="bg-purple-500 rounded-lg p-6">Sixth Columns</div>
+      </div>
+      {/* layout */}
+      <div className="Parent bg-slate-900 h-screen text-white">
+        <div className="bg-red-500 container mx-auto px-4">Hello</div>
+      </div>
+      <div className="Parent bg-slate-900 text-white">
+        <div className="bg-sky-500 container columns-lg mx-auto px-2">
+          <p className="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus aspernatur mollitia ducimus laboriosam commodi
+            consequuntur nemo odio asperiores neque. Ea voluptatum veniam cum
+            delectus molestiae, velit distinctio reiciendis et in.
+          </p>
+          <p className="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus aspernatur mollitia ducimus laboriosam commodi
+            consequuntur nemo odio asperiores neque. Ea voluptatum veniam cum
+            delectus molestiae, velit distinctio reiciendis et in.
+          </p>
+          <p className="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus aspernatur mollitia ducimus laboriosam commodi
+            consequuntur nemo odio asperiores neque. Ea voluptatum veniam cum
+            delectus molestiae, velit distinctio reiciendis et in.
+          </p>
+        </div>
+      </div>
+      <div className="Parent bg-slate-900 text-white">
+        <div className="bg-green-500 container columns-3 mx-auto px-2">
+          <img
+            className="w-64 float-right"
+            src="https://artistsatrisk.org/wp-content/uploads/2022/04/Ethereum-Logo.png"
+            alt=""
+          />
+          <img
+            className="w-64 float-left"
+            src="https://artistsatrisk.org/wp-content/uploads/2022/04/Ethereum-Logo.png"
+            alt=""
+          />
+          <p className="clear-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus aspernatur mollitia ducimus laboriosam commodi
+            consequuntur nemo odio asperiores neque. Ea voluptatum veniam cum
+            delectus molestiae, velit distinctio reiciendis et in.
+          </p>
+          <p className="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus aspernatur mollitia ducimus laboriosam commodi
+            consequuntur nemo odio asperiores neque. Ea voluptatum veniam cum
+            delectus molestiae, velit distinctio reiciendis et in.
+          </p>
+          <p className="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus aspernatur mollitia ducimus laboriosam commodi
+            consequuntur nemo odio asperiores neque. Ea voluptatum veniam cum
+            delectus molestiae, velit distinctio reiciendis et in.
+          </p>
+        </div>
+      </div>
+      <div className="h-screen text-white bg-slate-600">
+        <div className="container px-2">
+          <div className="relative w-64 h-64 p-8 bg-red-500 rounded-lg">
+            <div className="absolute top-0 -left-2 w-24 h-24 p-8 bg-green-500 rounded-lg"></div>
+            <div className="absolute inset-5 w-24 h-24 p-8 bg-purple-500 rounded-lg"></div>
+          </div>
+        </div>
+      </div>
+      <div className="text-white bg-slate-600 m-20">
+        <div className="max-h-52 overflow-y-scroll text-3xl">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
+          laboriosam veritatis, nesciunt ab dicta consequatur ipsam
+          exercitationem magnam ullam ea soluta iure distinctio possimus
+          sapiente adipisci corporis ad quam asperiores. Lorem ipsum dolor, sit
+          amet consectetur adipisicing elit. Necessitatibus ex sequi
+          exercitationem, eveniet illum minima dolore similique blanditiis.
+          Similique natus quod repudiandae veritatis vero corrupti perspiciatis,
+          repellat a beatae possimus! perspiciatis, repellat a beatae possimus!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
+          laboriosam veritatis, nesciunt ab dicta consequatur ipsam
+          exercitationem magnam ullam ea soluta iure distinctio possimus
+          sapiente adipisci corporis ad quam asperiores. Lorem ipsum dolor, sit
+          amet consectetur adipisicing elit. Necessitatibus ex sequi
+          exercitationem, eveniet illum minima dolore similique blanditiis.
+          Similique natus quod repudiandae veritatis vero corrupti perspiciatis,
+          repellat a beatae possimus! Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Totam laboriosam veritatis, nesciunt ab dicta
+          consequatur ipsam exercitationem magnam ullam ea soluta iure
+          distinctio possimus sapiente adipisci corporis ad quam asperiores.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Necessitatibus ex sequi exercitationem, eveniet illum minima dolore
+          similique blanditiis. Similique natus quod repudiandae veritatis vero
+          corrupti perspiciatis, repellat a beatae possimus! perspiciatis,
+          repellat a beatae possimus! Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Totam laboriosam veritatis, nesciunt ab dicta
+          consequatur ipsam exercitationem magnam ullam ea soluta iure
+          distinctio possimus sapiente adipisci corporis ad quam asperiores.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Necessitatibus ex sequi exercitationem, eveniet illum minima dolore
+          similique blanditiis. Similique natus quod repudiandae veritatis vero
+          corrupti perspiciatis, repellat a beatae possimus!
+        </div>
+      </div>
+      <div className="container bg-slate-900 text-white flex p-3">
+        <div className="z-40 -mr-3 bg-red-500 p-3 border-5 border-solid border-green-500 rounded-lg">
+          01
+        </div>
+        <div className="bg-red-500 -mr-3 z-30 p-3 border-5 border-solid border-sky-500 rounded-full">
+          02
+        </div>
+        <div className="bg-red-500 -mr-3 z-20 p-3 border-3 border-dotted border-white-500 rounded-full">
+          03
+        </div>
+        <div className="bg-red-500 -mr-3 z-10 p-3 border-2 border-dashed border-white rounded-full">
+          04
+        </div>
+        <div className="bg-red-500 -mr-3 z-0 p-3 border-1 border-solid border-white rounded-full">
+          05
+        </div>
       </div>
     </>
   );
