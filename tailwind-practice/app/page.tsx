@@ -92,11 +92,61 @@ export default function Home() {
         </div>
       </div>
       {/* grid */}
-      <div className="grid grid-cols-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-1">
         <div className="bg-sky-500 rounded-lg p-6">First Columns</div>
         <div className="bg-sky-500 rounded-lg p-6">Second Columns</div>
         <div className="bg-sky-500 rounded-lg p-6">Third Columns</div>
         <div className="bg-sky-500 rounded-lg p-6">Fourth Columns</div>
+        <div className="bg-sky-500 rounded-lg p-6">Fifth Columns</div>
+        <div className="bg-sky-500 rounded-lg p-6">Sixth Columns</div>
+      </div>
+      <div className="grid grid-cols-3 gap-1">
+        <div className="bg-red-500 rounded-lg p-6">First Columns</div>
+        <div className="bg-red-500 rounded-lg p-6">Second Columns</div>
+        <div className="bg-red-500 rounded-lg p-6">Third Columns</div>
+        <div className="bg-red-500 rounded-lg p-6 col-span-2">
+          Fourth Columns
+        </div>
+        <div className="bg-red-500 rounded-lg p-6">Fifth Columns</div>
+        <div className="bg-red-500 rounded-lg p-6 col-span-3">SixthColumns</div>
+      </div>
+      <div className="grid grid-cols-6 gap-4">
+        <div className="bg-yellow-500 rounded-lg p-6 col-start-2 col-end-6">
+          First Columns
+        </div>
+        <div className="bg-yellow-500 rounded-lg p-6 col-start-1 col-end-3">
+          Second Columns
+        </div>
+        <div className="bg-yellow-500 rounded-lg p-6 col-start-5 col-end-7">
+          Third Columns
+        </div>
+        <div className="bg-yellow-500 rounded-lg p-6 col-start-1 col-end-7">
+          Fourth Columns
+        </div>
+      </div>
+      <div className="grid grid-flow-col grid-rows-4 gap-1">
+        <div className="bg-sky-500 rounded-lg p-6 row-span-2">
+          First Columns
+        </div>
+        <div className="bg-sky-500 rounded-lg p-6">Second Columns</div>
+        <div className="bg-sky-500 rounded-lg p-6">Third Columns</div>
+        <div className="bg-sky-500 rounded-lg p-6 row-span-3">
+          Fourth Columns
+        </div>
+        <div className="bg-sky-500 rounded-lg p-6">Fifth Columns</div>
+        <div className="bg-sky-500 rounded-lg p-6">Sixth Columns</div>
+      </div>
+      <div className="grid grid-flow-row-dense grid-cols-3 gap-1">
+        <div className="bg-purple-500 rounded-lg p-6 col-span-2">
+          First Columns
+        </div>
+        <div className="bg-purple-500 rounded-lg p-6 col-span-2">
+          Second Columns
+        </div>
+        <div className="bg-purple-500 rounded-lg p-6">Third Columns</div>
+        <div className="bg-purple-500 rounded-lg p-6">Fourth Columns</div>
+        <div className="bg-purple-500 rounded-lg p-6">Fifth Columns</div>
+        <div className="bg-purple-500 rounded-lg p-6">Sixth Columns</div>
       </div>
     </>
   );
